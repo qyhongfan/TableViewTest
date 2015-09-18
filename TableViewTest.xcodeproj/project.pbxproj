@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD78450F1BAB99D3001BC9EE /* HJTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD78450E1BAB99D3001BC9EE /* HJTestCell.m */; };
 		BDFA41AE1BAAFA6E006672AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA41AD1BAAFA6E006672AE /* main.m */; };
 		BDFA41B11BAAFA6E006672AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA41B01BAAFA6E006672AE /* AppDelegate.m */; };
-		BDFA41B41BAAFA6E006672AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA41B31BAAFA6E006672AE /* ViewController.m */; };
 		BDFA41B71BAAFA6E006672AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFA41B51BAAFA6E006672AE /* Main.storyboard */; };
 		BDFA41B91BAAFA6E006672AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFA41B81BAAFA6E006672AE /* Images.xcassets */; };
 		BDFA41BC1BAAFA6E006672AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFA41BA1BAAFA6E006672AE /* LaunchScreen.xib */; };
 		BDFA41C81BAAFA6F006672AE /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA41C71BAAFA6F006672AE /* TableViewTestTests.m */; };
+		BDFA41D61BAAFAD6006672AE /* HJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA41D51BAAFAD6006672AE /* HJTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD78450D1BAB99D3001BC9EE /* HJTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTestCell.h; sourceTree = "<group>"; };
+		BD78450E1BAB99D3001BC9EE /* HJTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTestCell.m; sourceTree = "<group>"; };
 		BDFA41A81BAAFA6E006672AE /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFA41AC1BAAFA6E006672AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDFA41AD1BAAFA6E006672AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDFA41AF1BAAFA6E006672AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDFA41B01BAAFA6E006672AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDFA41B21BAAFA6E006672AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BDFA41B31BAAFA6E006672AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BDFA41B61BAAFA6E006672AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDFA41B81BAAFA6E006672AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDFA41BB1BAAFA6E006672AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDFA41C11BAAFA6F006672AE /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFA41C61BAAFA6F006672AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDFA41C71BAAFA6F006672AE /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		BDFA41D41BAAFAD6006672AE /* HJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJTestViewController.h; path = ../HJTestViewController.h; sourceTree = "<group>"; };
+		BDFA41D51BAAFAD6006672AE /* HJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJTestViewController.m; path = ../HJTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				BDFA41AF1BAAFA6E006672AE /* AppDelegate.h */,
 				BDFA41B01BAAFA6E006672AE /* AppDelegate.m */,
-				BDFA41B21BAAFA6E006672AE /* ViewController.h */,
-				BDFA41B31BAAFA6E006672AE /* ViewController.m */,
+				BD78450D1BAB99D3001BC9EE /* HJTestCell.h */,
+				BD78450E1BAB99D3001BC9EE /* HJTestCell.m */,
+				BDFA41D41BAAFAD6006672AE /* HJTestViewController.h */,
+				BDFA41D51BAAFAD6006672AE /* HJTestViewController.m */,
 				BDFA41B51BAAFA6E006672AE /* Main.storyboard */,
 				BDFA41B81BAAFA6E006672AE /* Images.xcassets */,
 				BDFA41BA1BAAFA6E006672AE /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDFA41B41BAAFA6E006672AE /* ViewController.m in Sources */,
+				BD78450F1BAB99D3001BC9EE /* HJTestCell.m in Sources */,
 				BDFA41B11BAAFA6E006672AE /* AppDelegate.m in Sources */,
+				BDFA41D61BAAFAD6006672AE /* HJTestViewController.m in Sources */,
 				BDFA41AE1BAAFA6E006672AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				BDFA41CD1BAAFA6F006672AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDFA41CE1BAAFA6F006672AE /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				BDFA41D01BAAFA6F006672AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

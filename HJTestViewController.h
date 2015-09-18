@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HJTestViewController.h
 //  TableViewTest
 //
 //  Created by 覃玉红 on 15/9/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HJTestViewController : UITableViewController
 
 @end
-
